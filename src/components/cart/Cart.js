@@ -57,7 +57,7 @@ const Cart = () => {
 
     const addtocart = async (id) => {
         console.log(id);
-        const checkres = await fetch(`/addcart/${id}`, {
+        const checkres = await fetch(`https://amazonservice-0j2o.onrender.com/addcart/${id}`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
